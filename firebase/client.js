@@ -3,8 +3,8 @@ import { getFirestore } from "firebase/firestore";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAXiW17TbtTzJsu_FZxVMjwxArG8leUvYc",
-  authDomain: "herpe-10524.firebaseapp.com",
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
   projectId: "herpe-10524",
   storageBucket: "herpe-10524.appspot.com",
   messagingSenderId: "55245273928",
