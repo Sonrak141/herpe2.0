@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -70,7 +71,7 @@ export default function Example() {
         </div>
       </div>
       <div>
-        <img src='https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/PROCESOS%20PRODUCCIO%CC%81N%20FABRICA%202DA%20VERSIO%CC%81N%20%2B%20LUZ%20(1).jpg?alt=media&token=d638d157-37ae-498a-8d88-ed6fc56cb30d' width={1000} className='rounded-[1rem]' />
+        <Image src='https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/PROCESOS%20PRODUCCIO%CC%81N%20FABRICA%202DA%20VERSIO%CC%81N%20%2B%20LUZ%20(1).jpg?alt=media&token=d638d157-37ae-498a-8d88-ed6fc56cb30d' width={1000} className='rounded-[1rem]' alt='Hero Image' />
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function ProductsCta() {
   return (
     <div className="bg-white">
@@ -33,7 +34,7 @@ export default function ProductsCta() {
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
-            <img
+            <Image
               className="absolute left-0 -top-8 w-[57rem] max-w-none rounded-[1rem] bg-white/5 ring-1 ring-white/10"
               src="/images/productDetail.jpg"
               alt="App screenshot"
