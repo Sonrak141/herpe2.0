@@ -14,9 +14,9 @@ const fetchDataFb = async () => {
   return data;
 };
 
-const page = (props: {}) => {
+const Page = (props: {}) => {
   const [productsData, setProductsData] = useState<any>([]);
-  const [category, setCategory] = useState<string>('');
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -42,4 +42,4 @@ const page = (props: {}) => {
   );
 };
 
-export default page;
+export default Page;
