@@ -7,7 +7,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className='flex md:flex-row mx-auto justify-center items-center'>
+    <div className='flex flex-col md:flex-row mx-auto justify-center items-center'>
       <div className='bg-white mt-[18rem]'>
         <div className='relative isolate px-6 lg:px-8'>
           <div
@@ -71,7 +71,7 @@ export default function Example() {
         </div>
       </div>
       <div>
-        <Image src='https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/PROCESOS%20PRODUCCIO%CC%81N%20FABRICA%202DA%20VERSIO%CC%81N%20%2B%20LUZ%20(1).jpg?alt=media&token=d638d157-37ae-498a-8d88-ed6fc56cb30d' width={1000} className='rounded-[1rem]' alt='Hero Image' />
+        <Image src='https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/PROCESOS%20PRODUCCIO%CC%81N%20FABRICA%202DA%20VERSIO%CC%81N%20%2B%20LUZ%20(1).jpg?alt=media&token=d638d157-37ae-498a-8d88-ed6fc56cb30d' width={1000} className='rounded-[1rem]' alt='Hero Image' height={2000} />
       </div>
     </div>
   );

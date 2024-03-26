@@ -3,7 +3,7 @@ import Image from 'next/image';
 function Footer() {
     return (
         <div className="flex flex-col bg-[#ffeec9] p-4 ">
-            <div className='flex flex-row justify-around items-start mt-10'>
+            <div className='flex flex-col justify-center md:flex-row md:justify-around items-center  md:items-start mt-10'>
                 <div>
                     <a href='#' className=''>
                         <Image
@@ -18,28 +18,13 @@ function Footer() {
                     </a>
                 </div>
                 <div>
-                    <h4><a className="font-bold hover:cursor-pointer">Productos</a></h4>
-                    <ul>
-                        <li>
-                            <a className="hover:cursor-pointer"><small>Analytics</small></a>
-                        </li>
-                        <li>
-                            <a className="hover:cursor-pointer"><small>Engagement</small></a>
-                        </li>
-                        <li>
-                            <a className="hover:cursor-pointer"><small>Security</small></a>
-                        </li>
-                        <li>
-                            <a className="hover:cursor-pointer"><small>Integrations</small></a>
-                        </li>
-                    </ul>
+                    <h4><a className="font-bold hover:cursor-pointer" href='/productos'>Productos</a></h4>
+
                 </div>
                 <div>
-                    <h4><a className="font-bold hover:cursor-pointer">¿Quienes somos?</a></h4>
+                    <h4><a className="font-bold hover:cursor-pointer" href='/quienessomos'>¿Quienes somos?</a></h4>
                 </div>
-                <div>
-                    <h4><a className="font-bold hover:cursor-pointer">¿Que hacemos?</a></h4>
-                </div>
+
 
             </div>
             <div className='mt-10 mr-10 text-end'>

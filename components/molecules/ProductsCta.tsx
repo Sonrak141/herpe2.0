@@ -4,19 +4,7 @@ export default function ProductsCta() {
     <div className="bg-white">
       <div className="mx-auto w-[80%] py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate   lg:flex  lg:pt-0">
-          <svg
-            viewBox="0 0 1024 1024"
-            className="absolute left-[0.5rem] top-[0.5rem] -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-            aria-hidden="true"
-          >
-            <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
-            <defs>
-              <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                <stop stopColor="#7775D6" />
-                <stop offset={1} stopColor="#E935C1" />
-              </radialGradient>
-            </defs>
-          </svg>
+
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-[#484848] sm:text-4xl">
               Productos.
@@ -35,9 +23,15 @@ export default function ProductsCta() {
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
             <Image
-              className="absolute left-0 -top-8 w-[57rem] max-w-none rounded-[1rem] bg-white/5 ring-1 ring-white/10"
+              className="absolute left-0 -top-8 md:w-[57rem] max-w-none rounded-[1rem] bg-white/5 ring-1 ring-white/10"
               src="/images/productDetail.jpg"
               alt="App screenshot"
+              width={
+                500
+              }
+              height={
+                200
+              }
 
             />
           </div>

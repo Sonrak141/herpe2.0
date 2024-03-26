@@ -1,4 +1,5 @@
 import AboutSection from '@/components/organisms/AboutSection';
+import Footer from '@/components/organisms/Footer';
 import ImageSection from '@/components/organisms/ImageSection';
 
 function page() {
@@ -6,6 +7,7 @@ function page() {
     <div>
       <ImageSection />
       <AboutSection />
+      <Footer />
     </div>
   );
 }
