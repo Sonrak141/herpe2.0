@@ -70,16 +70,12 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5i hover:cursor-pointer">
             <Image
-              className="h-[3.5rem] mx-auto"
+              className="h-[3.5rem] w-auto mx-auto"
               src="/images/logoHerpe.png"
               alt="Herpe logo"
               width="50"
               height="80"
             />
-
-            <span className="uppercase text-lg text-black font-bold">
-              Herpe S.A.S
-            </span>
           </a>
         </div>
         <div className="flex lg:hidden">
