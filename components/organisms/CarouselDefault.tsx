@@ -5,7 +5,7 @@ import Image from "next/image";
 function CarouselDefault() {
   return (
     <Carousel placeholder="">
-      <div>
+      <div className="relative h-full w-full">
         <Image
           src="https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/PROCESOS%20PRODUCCIO%CC%81N%20FABRICA%202DA%20VERSIO%CC%81N%20%2B%20LUZ%20(1).jpg?alt=media&token=d638d157-37ae-498a-8d88-ed6fc56cb30d"
           width={1000}
@@ -43,7 +43,7 @@ function CarouselDefault() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="relative h-full w-full">
         <Image
           src="https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/PROCESOS%20PRODUCCIO%CC%81N%20FABRICA%202DA%20VERSIO%CC%81N%20%2B%20LUZ%20(2).jpg?alt=media&token=afff38eb-cce8-4275-930e-42b576812204"
           width={1000}
@@ -87,7 +87,7 @@ function CarouselDefault() {
         </div>
       </div>
 
-      <div>
+      <div className="relative h-full w-full">
         <Image
           src="https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/sandeep-singh-3KbACriapqQ-unsplash.jpg?alt=media&token=16c78983-1d94-4b44-92fd-108f8c6983ca"
           width={1000}

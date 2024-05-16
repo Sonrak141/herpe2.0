@@ -2,33 +2,34 @@ import Image from 'next/image';
 
 function Footer() {
     return (
-        <div className="flex flex-col bg-[#ffeec9] p-4 ">
-            <div className='flex flex-col justify-center md:flex-row md:justify-around items-center  md:items-start mt-10'>
-                <div>
-                    <a href='#' className=''>
-                        <Image
-                            className='h-12 mx-auto'
-                            src='/images/logoHerpe.png'
-                            alt='Herpe logo'
-                            width='50'
-                            height='50'
-                        />
+        <div>
+            <div className="flex flex-col bg-[#ffeec9] p-4 ">
+                <div
+                    className='flex flex-col justify-center md:justify-start md:ml-24 md:flex-row  items-center  md:items-start mt-10 mb-4`'>
+                    <div>
+                        <a href='#' className=''>
+                            <Image
+                                className='h-[3.5rem] w-auto mx-auto'
+                                src='/images/logoHerpe.png'
+                                alt='Herpe logo'
+                                width='50'
+                                height='80'
+                            />
+                        </a>
 
-                        <span className='text-black font-bold'>Herpe S.A.S</span>
-                    </a>
-                </div>
-                <div>
-                    <h4><a className="font-bold hover:cursor-pointer" href='/productos'>Productos</a></h4>
+                    </div>
+                    <div className='md:ml-16'>
+                        <small>CALLE 24 F 102 23 BOD 103, BOGOTA, BOGOTA</small>
+                        <br/>
+                        <small>Numero de teléfono, fax, correo al cual comunicarse</small>
+                    </div>
+
 
                 </div>
-                <div>
-                    <h4><a className="font-bold hover:cursor-pointer" href='/quienessomos'>¿Quienes somos?</a></h4>
-                </div>
-
 
             </div>
-            <div className='mt-10 mr-10 text-end'>
-                <small>© 2024 Herpe SAS, todos los derechos reservados.</small>
+            <div className='w-full text-end bg-black py-2'>
+                <small className='text-white md:mr-4'>© 2024 Herpe SAS, todos los derechos reservados.</small>
             </div>
         </div>
     )
