@@ -171,7 +171,7 @@ export default function Header() {
                     </a>
 
                     <a
-                        href="/productos"
+                        href="/industrias"
                         className=" relative font-semibold text-black uppercase cursor-pointer text-[17px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden"
                     >
                         Industrias
@@ -253,7 +253,7 @@ export default function Header() {
                                 </a>
 
                                 <a
-                                    href="/productos"
+                                    href="/insdustrias"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Industrias

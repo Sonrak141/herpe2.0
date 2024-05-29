@@ -65,7 +65,7 @@ const Page = (props: {}) => {
     }, [filter]);
 
     return (
-        <div>
+        <div className='w-[100%] overflow-hidden'>
             <div className="relative h-full w-full">
                 <Image
                     src="https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/Conectores.PNG?alt=media&token=6db5aa2e-cee4-400a-8e19-dc9b7eeca952"
@@ -76,14 +76,14 @@ const Page = (props: {}) => {
                 />
                 <div
                     className="absolute inset-0 grid h-full w-full bg-black/40 text-white font-bold text-4xl">
-                    <h2 className='mt-[75%] md:mt-80 ml-[5%] md:ml-8'>Productos</h2>
+                    <h2 className=' relative top-[70%] ml-[5%] md:ml-8'>Productos</h2>
                 </div>
             </div>
             <ProductsCta/>
             <div className="w-[80%] mx-auto mt-[5rem]">
                 <b className=" font-extrabold text-[2rem]">Nuestros productos</b>
                 <div className="block">
-                    <div className="ml-10 mt-10 flex items-baseline space-x-4">
+                    <div className="md:ml-10 mt-10 flex items-baseline space-x-4">
                         {navigation.map((item) => (
                             <button
                                 key={item.name}

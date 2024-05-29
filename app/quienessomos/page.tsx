@@ -17,7 +17,7 @@ function page() {
                 />
                 <div
                     className="absolute inset-0 grid h-full w-full bg-black/40 text-white font-bold text-4xl">
-                    <h2 className='mt-[75%] md:mt-80 ml-[5%] md:ml-8'>Empresa</h2>
+                    <h2 className='relative top-[70%] ml-[5%] md:ml-8'>Empresa</h2>
                 </div>
             </div>
             <ImageSection/>
