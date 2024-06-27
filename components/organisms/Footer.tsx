@@ -20,8 +20,8 @@ function Footer() {
                     </div>
                     <div className='md:ml-16'>
                         <small>CALLE 24 F 102 23 BOD 103, BOGOTA, BOGOTA</small>
-                        <br/>
-                        <small>Numero de teléfono, fax, correo al cual comunicarse</small>
+                        <br />
+                        <small>601 743 2227, 3174016720, herpe@gomenal.com</small>
                     </div>
 
 

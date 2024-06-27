@@ -45,7 +45,7 @@ export default function Example() {
             Desde 1985
           </h2>
           <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-            Piezas troqueladas a partir de chapa metálica
+            Tu mejor aliado para la fabricación de partes para tus productos
           </p>
           <p className='mt-6 text-lg leading-8 text-gray-600'>
             Nuestro compromiso va más allá de la fabricación de troqueles y

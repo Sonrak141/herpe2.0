@@ -27,10 +27,10 @@ function CarouselDefault() {
               placeholder=""
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 md:uppercase"
             >
               Troqueles progresivos con alimentadores de piezas, fabricamos
-              conexiones para electrodomesticos.
+              terminales para conexiones eléctricas.
             </Typography>
             <div className="flex justify-center gap-2">
               <Button placeholder="" size="lg" color="yellow">
@@ -59,7 +59,7 @@ function CarouselDefault() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              Fabricacion de troqueles
+              Fabricación de terminales
             </Typography>
             <Typography
               placeholder=""
@@ -67,8 +67,7 @@ function CarouselDefault() {
               color="white"
               className="mb-12 opacity-80 md:uppercase"
             >
-              Troqueles progresivos con alimentadores de piezas, fabricamos
-              conexiones para electrodomesticos.
+              Fabricamos terminales para conexiones en electrodomésticos.
             </Typography>
             <div className="flex justify-center gap-2">
               <Button
@@ -111,8 +110,7 @@ function CarouselDefault() {
               color="white"
               className="mb-12 opacity-80 md:uppercase"
             >
-              Troqueles progresivos con alimentadores de piezas, fabricamos
-              conexiones para electrodomesticos.
+              Troqueles progresivos para fabricar cualquier pieza a partir de lamina en metal.
             </Typography>
             <div className="flex justify-center gap-2">
               <Button

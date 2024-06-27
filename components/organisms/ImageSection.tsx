@@ -37,27 +37,18 @@ export default function Example() {
                 Conócenos
               </h2>
               <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                Piezas de alta calidad y precision
+                Nuestra Historia
               </p>
               <p className='mt-6 text-lg leading-8 text-gray-600'>
-                Ayudamos con el dieño y produccion de piezas para cualquier tipo
-                de industria, contactanos y nosotros te asesoramos en todo lo
-                que necesites.
+                INDUSTRIAS HERPE SAS nació de la necesidad de fabricar terminales metálicas para instalaciones de alta tensión y cables de bujía para automóviles. Desde nuestros inicios, hemos reunido un equipo técnico altamente capacitado, entrenado por expertos franceses, y contamos con la maquinaria y el equipo de metrología necesarios para producir troqueles de alta calidad.
               </p>
-              <dl className='mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none'>
-                {features.map((feature) => (
-                  <div key={feature.name} className='relative pl-9'>
-                    <dt className='inline font-semibold text-gray-900'>
-                      <feature.icon
-                        className='absolute left-1 top-1 h-5 w-5 text-[#fccb32]'
-                        aria-hidden='true'
-                      />
-                      {feature.name}
-                    </dt>{' '}
-                    <dd className='inline'>{feature.description}</dd>
-                  </div>
-                ))}
-              </dl>
+              <p className='mt-6 text-xl font-bold tracking-tight text-gray-900 sm:text-xl'>
+                Expansión a la Industria Militar
+              </p>
+              <p className='mt-2 text-lg leading-8 text-gray-600'>
+                En el año 2002, expandimos nuestra producción para incluir piezas para la Industria Militar Colombiana, comenzando con la fabricación de la copa porta pólvora para granadas. Actualmente, suministramos una amplia gama de componentes para diversas aplicaciones militares, incluyendo pistolas, granadas y fusiles.
+              </p>
+
             </div>
           </div>
           <Image

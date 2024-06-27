@@ -1,6 +1,6 @@
 "use client";
-import {Fragment, useState} from "react";
-import {Dialog, Disclosure, Popover, Transition} from "@headlessui/react";
+import { Fragment, useState } from "react";
+import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
     ArrowPathIcon,
     Bars3Icon,
@@ -50,8 +50,8 @@ const products = [
     },
 ];
 const callsToAction = [
-    {name: "Watch demo", href: "#", icon: PlayCircleIcon},
-    {name: "Contact sales", href: "#", icon: PhoneIcon},
+    { name: "Watch demo", href: "#", icon: PlayCircleIcon },
+    { name: "Contact sales", href: "#", icon: PhoneIcon },
 ];
 
 function classNames(...classes: string[]) {
@@ -87,7 +87,7 @@ export default function Header() {
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
-                        <Bars3Icon className="h-6 w-6" aria-hidden="true"/>
+                        <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
@@ -130,7 +130,7 @@ export default function Header() {
                                                     className="block font-semibold text-gray-900"
                                                 >
                                                     {item.name}
-                                                    <span className="absolute inset-0"/>
+                                                    <span className="absolute inset-0" />
                                                 </a>
                                                 <p className="mt-1 text-gray-600">{item.description}</p>
                                             </div>
@@ -170,12 +170,7 @@ export default function Header() {
                         Productos
                     </a>
 
-                    <a
-                        href="/industrias"
-                        className=" relative font-semibold text-black uppercase cursor-pointer text-[17px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden"
-                    >
-                        Industrias
-                    </a>
+
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a
@@ -192,7 +187,7 @@ export default function Header() {
                 open={mobileMenuOpen}
                 onClose={setMobileMenuOpen}
             >
-                <div className="fixed inset-0 z-10"/>
+                <div className="fixed inset-0 z-10" />
                 <Dialog.Panel
                     className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
@@ -205,7 +200,7 @@ export default function Header() {
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             <span className="sr-only">Close menu</span>
-                            <XMarkIcon className="h-6 w-6" aria-hidden="true"/>
+                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>
                     <div className="mt-6 flow-root">
@@ -252,12 +247,7 @@ export default function Header() {
                                     Productos
                                 </a>
 
-                                <a
-                                    href="/insdustrias"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
-                                    Industrias
-                                </a>
+
                             </div>
                             <div className="py-6 bg-white">
                                 <a

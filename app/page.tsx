@@ -9,7 +9,7 @@ export default function Home() {
     <main className="">
       <CarouselDefault />
       <FeatureSection />
-      <AlliedsSection />
+
 
       <Footer />
     </main>

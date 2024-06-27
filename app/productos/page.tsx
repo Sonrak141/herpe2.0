@@ -1,7 +1,7 @@
 "use client";
-import {db} from "@/firebase/client";
-import React, {useState, useEffect} from "react";
-import {getDocs, collection} from "firebase/firestore";
+import { db } from "@/firebase/client";
+import React, { useState, useEffect } from "react";
+import { getDocs, collection } from "firebase/firestore";
 import ProductsCta from "@/components/molecules/ProductsCta";
 import ProductCard from "@/components/molecules/ProductCard";
 import Footer from "@/components/organisms/Footer";
@@ -11,7 +11,7 @@ const fetchDataFb = async () => {
     const querySnapshot = await getDocs(collection(db, "products"));
     const data: any = [];
     querySnapshot.forEach((doc) => {
-        data.push({id: doc.id, ...doc.data()});
+        data.push({ id: doc.id, ...doc.data() });
     });
     return data;
 };
@@ -21,9 +21,9 @@ const Page = (props: {}) => {
     const [filter, setFilter] = useState<any>('terminales')
 
     const navigation = [
-        {name: 'Terminales', href: '#', value: 'terminales'},
-        {name: 'Cables', href: '#', value: 'terminal cable'},
-        {name: 'Armamento', href: '#', value: 'armamento'},
+        { name: 'Terminales', href: '#', value: 'terminales' },
+        { name: 'Cables', href: '#', value: 'terminal cable' },
+        { name: 'Armamento', href: '#', value: 'armamento' },
 
     ]
 
@@ -63,7 +63,7 @@ const Page = (props: {}) => {
         fetchData();
 
     }, [filter]);
-
+    // Fabricacion Arneses para diferentes aplicacion en electrodomesticos
     return (
         <div className='w-[100%] overflow-hidden'>
             <div className="relative h-full w-full">
@@ -79,10 +79,11 @@ const Page = (props: {}) => {
                     <h2 className=' relative top-[70%] ml-[5%] md:ml-8'>Productos</h2>
                 </div>
             </div>
-            <ProductsCta/>
+            <ProductsCta />
             <div className="w-[80%] mx-auto mt-[5rem]">
                 <b className=" font-extrabold text-[2rem]">Nuestros productos</b>
                 <div className="block">
+                    <p className="mt-6 mr-5 text-lg text-[#505050] leading-8">Nuestro catálogo incluye componentes esenciales para la industria eléctrica, automotriz, militar y de electrodomésticos, elaborados con metales como hierro, latón, cobre, acero inoxidable y acero. Cada producto es el resultado de un riguroso proceso de fabricación que garantiza la precisión y durabilidad que nuestros clientes esperan. A continuación, presentamos una selección de nuestras piezas más destacadas, reflejo de nuestro compromiso con la excelencia y la satisfacción del cliente.</p>
                     <div className="md:ml-10 mt-10 flex items-baseline space-x-4">
                         {navigation.map((item) => (
                             <button
@@ -105,11 +106,11 @@ const Page = (props: {}) => {
                     {productsData.map((product: any) => (
 
                         <ProductCard key={product.id} name={product.name} image={product.image}
-                                     category={product.category}/>
+                            category={product.category} />
                     ))}
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 };
