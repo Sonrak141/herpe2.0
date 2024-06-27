@@ -10,7 +10,7 @@ function Footer() {
                         <a href='#' className=''>
                             <Image
                                 className='h-[3.5rem] w-auto mx-auto'
-                                src='/images/logoHerpe.png'
+                                src="/images/logo.svg"
                                 alt='Herpe logo'
                                 width='50'
                                 height='80'
