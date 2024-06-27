@@ -2,13 +2,16 @@ import {
   CloudArrowUpIcon,
   LockClosedIcon,
   ServerIcon,
+  Cog6ToothIcon,
+  TruckIcon,
+  BoltIcon
 } from '@heroicons/react/20/solid';
 import Image from 'next/image';
 
 const features = [
   {
     name: 'Conexiones eléctricas para todo tipo de electrodomésticos.',
-    icon: CloudArrowUpIcon,
+    icon: BoltIcon,
   },
   {
     name: 'Piezas para fábricas de partes para motocicletas.',
@@ -18,12 +21,12 @@ const features = [
   {
     name: 'Componentes para fábricas de automotores.',
 
-    icon: LockClosedIcon,
+    icon: Cog6ToothIcon,
   },
   {
     name: 'Productos para fábricas de elementos de aseo.',
 
-    icon: LockClosedIcon,
+    icon: TruckIcon,
   },
 ];
 

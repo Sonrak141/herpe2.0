@@ -9,7 +9,7 @@ function page() {
         <div>
             <div className="relative h-full w-full">
                 <Image
-                    src="https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?q=80&w=3331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://firebasestorage.googleapis.com/v0/b/herpe-10524.appspot.com/o/White%20pipes%20ceiling%20photo.jpg?alt=media&token=6c5370cb-991e-4767-b009-edb15935f7ed"
                     width={1000}
                     className="h-[40vh] w-full object-cover object-center"
                     alt="Hero Image"
@@ -20,9 +20,9 @@ function page() {
                     <h2 className='relative top-[70%] ml-[5%] md:ml-8'>Empresa</h2>
                 </div>
             </div>
-            <ImageSection/>
-            <AboutSection/>
-            <Footer/>
+            <ImageSection />
+            <AboutSection />
+            <Footer />
         </div>
     );
 }
